@@ -1,0 +1,288 @@
+/*=====================================================*/
+/* Styles for 'EasyDNN News' | VACC.com.au */
+/*=====================================================*/
+
+
+/*.dropdown-full-color a,
+html header nav ul.nav-main li.dropdown-primary.active > a,
+html header nav ul.nav-main li.dropdown-primary:hover > a {
+    font-size: 11pt !important;
+    font-family: 'Open Sans', 'Arial';
+}*/
+
+
+/*=== Featured Member===*/
+/*======================*/
+.dg_featured_mem,
+.dg_featured_frontmod {
+	padding: 50px 0 5px 0;
+	box-shadow: 0px 5px 10px -6px;
+	background: #ee7623; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #f49941 71%, #ee7623 100%); /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, #f49941 71%,#ee7623 100%); /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, #f49941 71%,#ee7623 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f49941', endColorstr='#ee7623',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.dg_featured_mem_box {
+	background:#fff;
+	box-shadow: 0px 5px 10px -6px;
+}
+
+.dg_featmem_contwrap {
+	background: #fff;
+    padding: 0;
+    margin-top: 18px;
+    box-shadow: 2px 2px 8px #000;
+}
+
+.dg_featmem_img {
+	position: relative;
+	z-index: 1;
+    width: 390px;
+    border: 3px #fff solid !important;
+    box-shadow: 2px 2px 10px #000;
+    margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+.dg_featmem_banner {
+
+}
+
+.dg_featmem_textwrap {
+	padding:10px 10px 10px 20px;
+}
+
+.dg_featmem_textwrap h2{
+	color: #333 !important;
+	font-family: 'Open Sans';
+	font-size: 18pt;
+}
+
+.dg_featmem_textwrap a{
+	color: #dd5900 !important;
+	transition: color 0.01s ease;
+	font-family: "Open Sans";
+	font-size: 25pt;
+}
+
+.dg_featmem_textwrap a:hover{
+	color: #2d338e !important;
+}
+
+.dg_featmem_text {
+	font-family: "Open Sans";
+	font-size: 10pt;
+	line-height: 19px;
+}
+
+
+/*===Article Details===*/
+/*======================*/
+.featmem_img_details {
+	box-shadow: 1px 2px 3px #6d6d6d;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	border: 1px solid #6d6d6d;
+	padding: 3px;
+}
+
+.marg_left36 {
+	margin-left: 36px !important;
+	font-family: 'Open Sans' !important;
+}
+
+.featmem_listtext{
+	font-family: 'Open Sans' !important;
+	font-size: 10.5pt !important;
+	line-height:24px !important;
+}
+
+.featmem_listtext p{
+	font-family: 'Open Sans' !important;
+	font-size: 10.5pt !important;
+}
+
+.featmem_listtext h2{
+	color: #dd5900 !important;
+	font-family: 'Open Sans' !important;
+}
+
+.featmem_listtext h2 a{
+	color: #dd5900 !important;
+	font-family: 'Open Sans' !important;
+}
+
+.featmem_listtext h3{
+	font-family: 'Open Sans' !important;
+	text-transform: uppercase !important;
+}
+
+.featmem_listtext h3 a{
+	color: #dd5900 !important;
+	text-transform: none !important;
+}
+
+.RMButton {
+	font-family: 'Open Sans' !important;
+	background: #f47b20 !important;
+    background: -moz-linear-gradient(top, #f47b20 20%, #dd5800 80%) !important;
+    background: -webkit-linear-gradient(top, #f47b20 20%,#dd5800 80%) !important;
+    background: linear-gradient(to bottom, #f47b20 20%,#dd5800 80%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47b20', endColorstr='#dd5800',GradientType=0 ) !important;
+    color: #fff !important;
+    border: 2px solid #f47b20 !important;
+    padding: 10px 15px !important;
+    text-decoration: none !important;
+    transition: all 0.1s ease !important;
+    border-radius: 4px !important;
+}
+
+.RMButton:hover {
+    outline: 0 !important;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125) !important;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125) !important;
+    text-decoration: none !important;
+}
+
+a.RMButton, a.RMButton:hover {
+	color: #fff !important;
+}
+
+.featmem_banner_details{
+	margin-bottom: 20px;
+}
+
+.featmem_art_details p {
+	font-family: 'Open Sans';
+	color: #777;
+	font-size: 10.5pt;
+	line-height: 24px;
+}
+
+
+@media (min-width: 992px){
+
+.no_pad_r{
+	padding-right: 0;
+}
+
+.no_pad_l{
+	padding-left: 0;
+}
+
+}
+
+@media (max-width: 991px){
+
+.marg_left36 {
+	margin-left: 0 !important;
+}
+
+#dnn_ctr853_ModuleContent{
+	margin-bottom: 30px;
+}
+
+}
+
+@media (max-width:1199px){
+
+.dg_featmem_contwrap {
+    margin-top: 0 !important;
+}
+
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+	.featmemmed h2 {
+		margin-bottom: 10px !important;
+	}
+
+	.featmemmed p{
+		line-height: 17px !important;
+	}
+
+	.featmemmed {
+		padding: 0px 10px 8px 20px !important
+	}
+}
+
+/*===Job Details Front===*/
+/*======================*/
+.eds_news_Ozone.eds_subCollection_news .ednMoreArticlesTriggerWrapper .trigger {
+    border: solid 1px #dd5900;
+}
+
+#dnn_ctr854_ModuleContent, #dnn_ctr853_ModuleContent, #dnn_ctr1005_ModuleContent{
+	padding: 20px 20px 0 20px;
+	border-radius: 10px;
+	border: 3px solid #f47b20;
+    background: #fff;
+}
+
+@media (min-width:992px) {
+	#dnn_ctr854_ModuleContent, #dnn_ctr853_ModuleContent, #dnn_ctr1005_ModuleContent{
+		min-height: 850px;
+	}
+}
+.eds_news_Ozone.eds_subCollection_news .edn_readMore.edn_readMoreButton{
+	background:#ee7623;
+}
+.eds_news_Ozone.eds_subCollection_news .ednMoreArticlesTriggerWrapper .trigger > span {
+    color: #dd5900;
+}
+
+.eds_news_Ozone.eds_subCollection_news .ednMoreArticlesTriggerWrapper .trigger:hover .actionTextContainer {
+    background-color: #dd5900;
+}
+
+#MiddlePaneFull{
+	padding: 40px 0;
+	background:#144d94;
+}
+#dnn_TopLowerPaneFull{
+    padding:30px;
+}
+
+
+/*===General===*/
+/*======================*/
+.eds_news_Ozone.eds_subCollection_news a {
+    color: #dd5900;
+}
+
+.eds_news_Ozone.eds_subCollection_news .article_pager.edn_articleScrolling a {
+    border: solid 1px #dd5900 !important;
+}
+
+.eds_news_Ozone.eds_subCollection_news .edn_aditionalBox h2 span::after {
+    border-bottom: 3px solid #dd5900;
+}
+
+@media (min-width:1200px){
+	.no_left_margin {
+		max-width: 345px;
+    	margin-top: 18px;
+    	margin-left: 30px;
+	}
+}
+
+
+/*===News Front===*/
+/*======================*/
+#dnn_ctr840_ViewEasyDNNNewsMain_ctl00_pnlListArticles {
+	border: 1px solid #eee;
+}
+
+.newsfront {
+	padding: 20px 20px 10px 20px;
+    background: #f3f3f3;
+    margin-bottom: 0 !important;
+}
+
+.newsfront:nth-child(even) {
+    background: #fff;
+}

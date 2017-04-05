@@ -1,0 +1,90 @@
+/*Porto Side Menu*/
+.dropdown-menu {
+    box-shadow: none !important;
+}
+
+.dropdown-menu > li > a {
+    white-space: normal !important;
+}
+
+.v-menu{
+    margin-top: 10px !important;
+}
+
+.v-menu .nav-main{
+    background-color: #1a56a7 !important;
+    border: none !important;
+}
+
+.v-menu .nav-main ul li {
+    padding: 0 !important;
+    border-bottom: 1px solid #fff;
+    background: transparent !important;
+}
+
+.v-menu nav ul.nav-main li a {
+    padding: 12px 25px !important;
+    transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -webkit-transition: all .15s ease-in-out;
+}
+
+.v-menu nav ul.nav-main li a:hover {
+    background-color: #222 !important;
+}
+
+.v-menu nav ul.nav-main ul.dropdown-menu {
+    padding: 0 !important;
+    border-radius: 0 !important;
+    background-color: #7097cb !important;
+    margin-bottom: -2px !important;
+}
+
+.v-menu nav ul.nav-main ul.dropdown-menu li a {
+    padding: 9px 25px 9px 40px !important;
+}
+
+.v-menu nav ul.nav-main > li.active > a, .v-menu nav ul.nav-main > li.active ul.dropdown-menu > li.active > a{
+    color: #fff !important;
+    background-color: #f4792f !important;
+    border-radius: 0px;
+}
+
+.v-menu nav ul.nav-main li a i.fa-caret-down {
+    top: 10px;
+    font-size: 20px;
+    right: 12px;
+}
+
+.v-menu nav ul.nav-main ul.dropdown-menu ul.dropdown-menu {
+    margin-top: 0px !important;
+    background-color: #4878b9 !important;
+}
+
+.v-menu nav ul.nav-main ul.dropdown-menu ul.dropdown-menu li a{
+    padding: 8px 25px 8px 55px !important;
+}
+
+.v-menu nav ul.nav-main ul.dropdown-menu ul.dropdown-menu ul.dropdown-menu {
+    background-color: #6266aa !important;
+}
+
+.v-menu nav ul.nav-main ul.dropdown-menu ul.dropdown-menu ul.dropdown-menu li a{
+    padding: 7px 25px 7px 70px !important;
+}
+
+
+/*Banner Image*/
+.banner_img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.banner_img_mobile {
+    max-width: 1162px !important;
+}

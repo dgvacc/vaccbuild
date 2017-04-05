@@ -1,0 +1,247 @@
+/*=====================================================*/
+/* Styles for Content | VACC.com.au */
+/*=====================================================*/
+
+/*=== Global ===*/
+/*======================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+#dnn_contentPane a{
+	color: #dd5900;
+}
+
+.main a{
+    color: #dd5900;
+}
+
+img {
+	vertical-align: middle;
+	padding: 10px;
+}
+    .dnnCheckbox img {
+        padding: 0px;
+    }
+p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h1 {
+    font-weight:500 !important;
+}
+
+h3 {
+    font-weight: 300 !important;
+}
+
+h2 {
+    font-size: 1.8em !important; /* All h2 to h3s */
+    font-weight: 400 !important;
+    letter-spacing: normal !important;
+    line-height: 24px !important;
+    margin-bottom: 33px !important;
+}
+span{
+   font-family: 'Open Sans', sans-serif !important; 
+}
+
+/*=====================================================*/
+/* Styles for Contact Form | VACC.com.au */
+/*=====================================================*/
+
+.bstrap3-material textarea:focus, .bstrap3-dd5900 textarea.form-control:focus, .bstrap3-material input.form-control:focus, .bstrap3-material input[type="text"]:focus, .bstrap3-material input[type="password"]:focus, .bstrap3-material input[type="email"]:focus, .bstrap3-material input[type="number"]:focus, .bstrap3-material .form-control[type="text"]:focus, .bstrap3-material .form-control[type="password"]:focus, .bstrap3-material .form-control[type="email"]:focus, .bstrap3-material .form-control[type="tel"]:focus, .bstrap3-material .form-control[contenteditable]:focus {
+    -webkit-box-shadow: inset 0 -2px 0 #dd5800 !important;
+    box-shadow: inset 0 -2px 0 #dd5900 !important;
+}
+
+.bstrap3-material .form-control::-moz-placeholder {
+    color: #dd5900 !important;
+    opacity: 1 !important;
+}
+
+.form-control::-moz-placeholder {
+    color: #4514B4 !important;
+    opacity: 1 !important;
+}
+
+*::-moz-selection {
+    background: #dd5900 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+.bstrap3-material .form-control {
+    display: block;
+    width: 100%;
+    height: 37px;
+    padding: 6px 16px;
+    font-size: 13px;
+    line-height: 1.846;
+    color: #f49941 !important;
+    background-color: transparent;
+    background-image: none;
+}
+
+html .bstrap3-material .btn-info {
+    color: #ffffff;
+    background-color: #dd5900;
+    border-color: transparent;
+}
+
+html .bstrap3-material .btn-info:hover, html .bstrap3-material .btn-info:active:hover, html .bstrap3-material .btn-info:focus {
+    background-color: #f49941;
+}
+
+.bstrap3-material .form-control:focus {
+    border-color: #f49941;
+}
+
+.bstrap3-material .btnc-left, .bstrap3-material .form-horizontal .control-label.btnc-left {
+    text-align: left;
+    margin-left: 0px;
+}
+
+.btn-large.mikasButt {
+    white-space: normal !important;
+    min-width: 220px;
+    min-height: 100px;
+    max-width: 220px;
+    display: block;
+    margin: 10px auto;
+}
+
+.butt3lines {
+    padding: 10px 10px !important;
+}
+
+.butt2lines {
+    padding: 25px 12px !important;
+}
+
+.butt1line {
+    padding: 35px 15px !important;
+}
+
+#dnn_contentPane a.mikasButt{
+    color:#ffffff!important;
+}
+
+html .bstrap3-material .alert-info {
+    background-color: #5381bd !important;
+    border: 2px solid #1a56a7 !important;
+    color: #212121 !important;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,.08);
+    box-shadow: 1px 1px 2px rgba(0,0,0,.08);
+}
+
+.alert p{
+    color:#fff!important;
+    font-size:20px;
+}
+h2.section-title.underlined{
+    color:#ee7623;
+    font-size:24px;
+}
+
+/*=====================================================*/
+/* Styles for Footer| VACC.com.au */
+/*=====================================================*/
+div#dnn_FooterTop {
+    background: url("/portals/0/chamber_emblem1.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+/*=====================================================*/
+/* Styles for Tables| VACC.com.au */
+/*=====================================================*/
+table.t_content {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.t_content th, .t_content td {
+  padding: 5px;
+  text-align: left;
+}
+.t_content th {
+  background: #ee7623;
+  color: #fff;
+}
+.t_content tbody tr:nth-child(odd) {
+  background: rgba(210, 210, 210, 0.3);
+}
+
+/*=== Buttons ===*/
+/*======================*/
+.btn-content {
+    background: #f47b20;
+    background: -moz-linear-gradient(top, #f47b20 20%, #dd5800 80%);
+    background: -webkit-linear-gradient(top, #f47b20 20%,#dd5800 80%);
+    background: linear-gradient(to bottom, #f47b20 20%,#dd5800 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47b20', endColorstr='#dd5800',GradientType=0 );
+    color: #fff !important;
+    border: 2px solid #f47b20;
+    padding: 15px 10px;
+    text-decoration: none;
+    transition: all 0.1s ease;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.btn-large.btn-content:hover {
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    text-decoration: none;
+}
+/*=== Buttons for search results ===*/
+/*======================*/
+.LS_Results a:link{
+    background: #f47b20;
+    background: -moz-linear-gradient(top, #f47b20 20%, #dd5800 80%);
+    background: -webkit-linear-gradient(top, #f47b20 20%,#dd5800 80%);
+    background: linear-gradient(to bottom, #f47b20 20%,#dd5800 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47b20', endColorstr='#dd5800',GradientType=0 );
+    color: #fff !important;
+    border: 2px solid #f47b20;
+    padding: 4px 10px;
+    text-decoration: none;
+    transition: all 0.1s ease;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    .LS_SearchLinkPanel {
+        width: 100%;
+    }
+
+    .dnnLabel {
+        width: auto !important;
+    }
+
+    #dnn_ctr1040_AricieLuceneSearchResults_ctlFilterControl_tblFiltre {
+        width: auto !important;
+    }
+    .LS_ResultsView .TemplateResults .item {
+        width: 50%;
+    }
+    .LS_ResultsView .TemplateResults .item .infos cite{
+        word-wrap: break-word;
+    }
+    .TemplateResults table {
+        width: 400px !important;
+    }
+    #pagerDiv {
+        display:none;
+    }
+    .LS_Results a:link {
+        white-space: inherit; 
+        word-wrap: break-word;
+    }
+
+        
+}

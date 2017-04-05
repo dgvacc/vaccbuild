@@ -1,0 +1,227 @@
+/*=====================================================*/
+/* Styles for 'Home' | VACC.com.au */
+/* 06/01/2017 | Issues gather, and now my watch begins */
+/*=====================================================*/
+
+html, body { 
+	height: 100%; width: 100%; margin: 0; 
+}
+
+/*=====================================================*/
+/* Styles for Footer| VACC.com.au */
+/*=====================================================*/
+div#dnn_FooterTop {
+    background: url("/portals/0/chamber_emblem1.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+/*=== Misc Classes ===*/
+/*====================*/
+
+h3 {
+	text-transform: lowercase !important;
+}
+.dg_nopad { /* Remove BS column gutter. Bam! and the dirt is gone. */
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.dg_center {
+	margin: 0 auto;
+}
+
+.dg_arrowtop3,
+.dg_arrowtop4 {
+	cursor: pointer;
+}
+
+.btn-content {
+    background: #f47b20;
+    background: -moz-linear-gradient(top, #f47b20 20%, #dd5800 80%);
+    background: -webkit-linear-gradient(top, #f47b20 20%,#dd5800 80%);
+    background: linear-gradient(to bottom, #f47b20 20%,#dd5800 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f47b20', endColorstr='#dd5800',GradientType=0 );
+    color: #fff !important;
+    border: 2px solid #f47b20;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.1s ease;
+    border-radius: 4px;
+}
+.btn-large.btn-content:hover {
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+    text-decoration: none;
+}
+
+
+
+/*=== Top Buttons ===*/
+/*===================*/
+.dg_arrowtop1 {
+	background-image: url('/portals/0/toparrow1.jpg');
+	height: 95px;
+	background-size: auto 100%;
+	background-color: #fbfbfb;
+	background-repeat: no-repeat;
+	transition: all .25s ease;
+}
+
+.dg_arrowtop2 {
+	background-image: url('/portals/0/toparrow2.jpg');
+	height: 95px;
+	background-color: #f3f3f3;
+	background-repeat: no-repeat;
+	transition: all .25s ease;
+}
+
+.dg_arrowtop3 {
+	background-image: url('/portals/0/toparrow3.jpg');
+	height: 95px;
+	background-color: #e5e5e5;
+	background-repeat: no-repeat;
+	transition: all .25s ease;
+}
+
+.dg_arrowtop4 {
+	background-image: url('/portals/0/toparrow4.jpg');
+	height: 95px;
+	background-color: #d4d4d4;
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    transition: all .25s ease;
+}
+
+.dg_topalign{
+	margin: 0 auto;
+	padding-top: 35px;
+	max-width: 100px;
+	font: 'open-sans';
+	font-size: 11pt;
+	text-align:center;
+	font-weight:800;
+}
+
+/*=== Slider Classes ===*/
+/*======================*/
+#LiveSlider565{
+	max-height: 80vh !important;
+}
+@media (max-width:767px) {
+	.dg_sliderwrap {
+		display:none;
+	}
+}
+
+/*=== Find a Member ===*/
+/*=====================*/
+.dg_home_findwrap {
+	background: #fff;
+}
+.dg_home_findarrow {
+	margin-top:0px;
+}
+
+.dg_arrow {
+	background-image: url('/portals/0/arrow_bg.jpg');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #000;
+	min-height:82px;
+}
+
+.dg_arrow img {
+	padding-right: 25px;
+	float:right;
+}
+
+.dg_homefas {
+	background:#fff;
+	height:82px
+}
+
+
+/*		@media (min-width: 1920px) {
+			.dg_find {
+				margin-top: -133px;
+				background:#fff;
+			}
+		}*/
+
+/*=== Attempt to fix Slider scaling ===*/
+	@media (min-width:1280) {
+		#LiveSlider565{
+
+		}
+		#header {
+			height:12vh;
+		}
+		.dg_home_findarrow {
+			height:10vh;
+		}
+
+		#LiveSlider565{
+			height:78vh !important;
+		}
+	}
+
+
+/*=== DGWP Styles Testing --*/
+.dg_logowrap {
+	margin-bottom: 0px !important;
+}
+
+
+
+.dg_welcome {
+padding: 40px 0;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cecece+0,f3f3f3+3,f3f3f3+62,d1d1d1+97,999999+100 */
+background: #1a4c95; /* Old browsers */
+background: -moz-linear-gradient(90deg,  #537baf, #1a4c95, #1a4c95, #537baf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(90deg,  #537baf, #1a4c95, #1a4c95, #537baf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(90deg,  #537baf, #1a4c95, #1a4c95, #537baf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a4c95', endColorstr='#537baf',GradientType=0 ); /* IE6-9 */
+
+}
+
+.dg_chamber_emblem {
+	padding-bottom: 30px;
+}
+
+/*=== Brands ===*/
+/*==============*/
+.dg_brands img{
+	padding:15px 10px;
+	display: block;
+    margin: 0 auto;
+}
+
+
+
+/*=== Countdown Timer ===*/
+/*===========================*/
+.countBannerT {
+	background: url("/Portals/0/VACC-Header-Band_LR.jpg");
+	background-position: top center;
+	min-height: 30px;
+    margin-bottom: 4px;
+}
+.countBannerB {
+	background: url("/Portals/0/VACC-Header-Band_LR.jpg");
+	background-position: top center;
+	min-height: 30px;
+    margin-top: 4px;
+}
+
+#dnn_CountdownPane{
+	padding:50px;
+}
+
+/*=== Dot on slider ===*/
+/*===========================*/
+
+.ls-ct-center{
+	display:none;
+}
