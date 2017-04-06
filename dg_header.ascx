@@ -681,22 +681,25 @@ header.flat-menu nav ul.nav-main li a {  /*==== Public nav desktop ====*/
 }
 
 @media (max-width:992px) {
+
     *[id^='antila-widget-']{
-        right: 65px !important;
+        left: 65px! important;
 
         /*display:none !important;*/
     }
     .scroll-to-top.hidden-mobile {
         display: block !important;
+        bottom: 50px !important;
     }
     .scroll-to-top {
         border-radius: 50% !important;
-        padding: 7px !important;
+        padding: 12px !important;
         width: 40px !important;
         height: 40px!important;
         min-width: 0px !important;
         margin-bottom: 10px;
-        margin-left: 350px !important;
+        margin-left: 10px !important;
+        right: inherit !important;
         box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
         opacity: 1 !important;
     }
